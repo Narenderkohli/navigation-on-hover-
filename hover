@@ -1,0 +1,14 @@
+========================================================
+js code
+==============================================
+$(".menu-cate").on("mouseover", function() {
+ 
+  $(this).parents('details').attr("open","");
+}).on("mouseleave", function() {
+  
+     $(this).parents('details').removeAttr("open","");
+ 
+});
+==============================
+end
+==========================
